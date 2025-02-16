@@ -1,7 +1,12 @@
+import { createBrowserRouter, RouterProvider } from "react-router";
+import Main from "./pages/main/Main";
+
+const router = createBrowserRouter([{ path: "/", element: <Main /> }]);
+
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <RouterProvider router={router} />
     </>
   );
 }
