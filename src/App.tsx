@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Main from "./pages/main/Main";
+import Main from "./pages/main";
 
 const router = createBrowserRouter([{ path: "/", element: <Main /> }]);
 
